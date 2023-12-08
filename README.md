@@ -35,8 +35,18 @@ The data provided by the company is formed by the following information:
 We were given a relatively small dataset (45593 rows) that represent previous deliveries made by the company in a city.
 
 ## 3) Technologies That Help us Solve the Problem
-We have in our hands a Supervised Regression problem. Using a conda virtual enviroment, we develop the model using Visual Studio Code with Python language with various libraries such as Pandas, Numpy, XGBoost and SKLearn. Finally, we deply our model in a web app made with Streamlit.
+We have in our hands a Supervised Regression problem. Using a conda virtual enviroment, we develop the model using Visual Studio Code with Python language with various libraries such as Pandas, Numpy, XGBoost and SKLearn. Finally, we deploy our model in a web app made with Streamlit.
 ![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/87aef6b4-5358-48dc-8d85-a79361e2ef39)
 
-## 3) Exploring and Building the Solution
+## 4) Exploring and Building the Solution
 All details regarding exploratory data analysis, hypothesis, statiscal findings, feature selection, model selection and model hyperparameter tuning are fully documented and explained on the eda.ipynb file within the notebook folder of the project.
+
+## 5) Solution Architecture: Modules, Pipeline and Application
+As said before, the whole project was built in a virtual environment in order to isolate dependencies, which are available in the requirements.txt file. Every module used in order to build the final application is available in the src folder. These modules cover all the steps in order to ingest, manipulate, process and engineer data as well as train and build the ML model, all isolated in order to facilitate the app's structure management. Below, an image that shows, in a simple way, the folders' structure.
+
+![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/c7a23bbb-6708-4d3d-96b6-b4eb456329ac)
+
+Also, below is a visual representation of the final pipeline that uses all modules in order to build the model and use it in the final app, deploying it in the Streamlit front-end:
+
+![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/70788d87-962e-444c-a6f9-e4e04d9cfc9b)
+
