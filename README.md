@@ -50,7 +50,7 @@ Also, below is a visual representation of the final pipeline that uses all modul
 
 ![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/70788d87-962e-444c-a6f9-e4e04d9cfc9b)
 
-## 5) ML Web App
+## 6) ML Web App
 Below, screenshots of the Web App with brief explanations about each of them.
 
 
