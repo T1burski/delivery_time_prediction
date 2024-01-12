@@ -53,21 +53,34 @@ Also, below is a visual representation of the final pipeline that uses all modul
 ## 5) ML Web App
 Below, screenshots of the Web App with brief explanations about each of them.
 
+
+
+## Introduction to the Web App, providing some initial info about it.
+
 ![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/1db15d84-2b65-4e8b-b9ad-070e092ef601)
 
-Introduction to the Web App, providing some initial info about it.
+
+
+
+## Interactive information inputs for the model. Here, the user selects the features' values.
 
 ![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/94c74eb0-ce24-44ce-bd8f-f124fd10aa30)
 
-Interactive information inputs for the model. Here, the user selects the features' values.
+
+
+
+## When selecting the type of vehicle used, the user can select from the provided list
 
 ![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/96c3416c-9b17-42fb-8832-8a98f66c27a7)
 
-When selecting the type of vehicle used, the user can select from the provided list
+
+
+
+## So, when adding all the information needed, the user clicks the button shown below and the Web App outputs the predicted time taken to make the delivery in minutes!
 
 ![image](https://github.com/T1burski/delivery_time_prediction/assets/100734219/c70c687e-d7bc-445d-8741-c28938818f1a)
 
-So, when adding all the information needed, the user clicks the button shown above and the Web App outputs the predicted time taken to make the delivery in minutes!
+
 
 
 
